@@ -1,7 +1,7 @@
 //============================================================================
 // Name        : Assign5.cpp
 // Author      : Shrikrushna S Zirape
-// Description : Assignment 05 in C++, Ansi-style
+// Description : Assignent 05 in C++, Ansi-style
 //============================================================================
 
 #include <iostream>
@@ -186,6 +186,9 @@ int main() {
 			cout<<"\nEnter the key you want to search";
 			cin>>key;
 			h.search(key);
+			break;
+		default:
+			cout<<"\n Incorrect option";
 			break;
 		}
 
